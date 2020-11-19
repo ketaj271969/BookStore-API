@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace BookStore_API.Contracts
 {
-    public interface iRepositoryBase<T> where T : class
+    public interface IRepositoryBase<T> where T : class
     {
         Task<IList<T>> FindAll();
         Task<T> FindById(int id);

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BookStore_API.Contracts
 {
-    public interface IAuthorRepository : IRepositoryBase<Author>
+    public interface IBookRepository : IRepositoryBase<Book>
     {
     }
 }
